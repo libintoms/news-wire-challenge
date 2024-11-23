@@ -30,4 +30,4 @@ The documentation for our Playwright framework infrastructure. This guide is des
 
 # Manual test cases
 
-- Check the manual test cases for the first challenge inside the [Manual tests folder](Manual tests)
+- Check the manual test cases for the first challenge inside the [Manual tests folder](https://github.com/libintoms/news-wire-challenge/tree/main/Manual%20tests)
