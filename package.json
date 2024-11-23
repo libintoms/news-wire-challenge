@@ -1,0 +1,23 @@
+{
+  "name": "newswire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pw-open": "npx playwright test --ui",
+    "test": "npx playwright test",
+    "debug": "npx playwright test --debug",
+    "prettier": "npx prettier . --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.9.3",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
