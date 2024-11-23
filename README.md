@@ -1,5 +1,3 @@
-[[_TOC_]]
-
 # Introduction
 
 The documentation for our Playwright framework infrastructure. This guide is designed to provide you with all the necessary information to understand my implementation of Playwright, including setup instructions, usage examples, and best practices.
@@ -24,8 +22,12 @@ The documentation for our Playwright framework infrastructure. This guide is des
 
 # Running tests
 
-**Note**: None of tests Have gone through dry runs due to the restrictions from ReCAPTCHA
+**Note**: None of the tests have gone through dry runs due to the restrictions from ReCAPTCHA
 
 - _Initial run_: Test will start with homepage with page pause in between to handle captcha verification with manual intervention
 - _Parallel running_: All the tests are independent of each other to enable parallelization
 - _Test fixtures_: Custom fixture is introduced to step away from the traditional POM model and take advantage of reusability.
+
+# Manual test cases
+
+- Check the manual test cases for the first challenge inside the [Manual tests folder](Manual tests)
