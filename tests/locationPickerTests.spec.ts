@@ -1,4 +1,4 @@
-import { test, expect } from '../fixtures/frontendPageFixtures'
+import { test } from '../fixtures/frontendPageFixtures'
 
 test.describe('Test location picker feature', () => {
   test('[Positive] Verify quick link location filter is working', async ({ getHomePage, baseURL }) => {
